@@ -1,0 +1,82 @@
+[
+  {
+    "name": "BTC/INR",
+    "last": 5656600,
+    "buy": 0,
+    "sell": 0,
+    "volume": 0,
+    "base_unit": "btc"
+  },
+  {
+    "name": "XRP/INR",
+    "last": 51.399,
+    "buy": 0,
+    "sell": 0,
+    "volume": 0,
+    "base_unit": "xrp"
+  },
+  {
+    "name": "ETH/INR",
+    "last": 303000,
+    "buy": 0,
+    "sell": 0,
+    "volume": 0,
+    "base_unit": "eth"
+  },
+  {
+    "name": "TRX/INR",
+    "last": 11.6402,
+    "buy": 0,
+    "sell": 0,
+    "volume": 0,
+    "base_unit": "trx"
+  },
+  {
+    "name": "EOS/INR",
+    "last": 51.94,
+    "buy": 0,
+    "sell": 0,
+    "volume": 0,
+    "base_unit": "eos"
+  },
+  {
+    "name": "ZIL/INR",
+    "last": 1.53,
+    "buy": 0,
+    "sell": 0,
+    "volume": 0,
+    "base_unit": "zil"
+  },
+  {
+    "name": "BAT/INR",
+    "last": 17.037,
+    "buy": 0,
+    "sell": 0,
+    "volume": 0,
+    "base_unit": "bat"
+  },
+  {
+    "name": "ZRX/INR",
+    "last": 31.78,
+    "buy": 0,
+    "sell": 0,
+    "volume": 0,
+    "base_unit": "zrx"
+  },
+  {
+    "name": "REQ/INR",
+    "last": 10.25,
+    "buy": 0,
+    "sell": 0,
+    "volume": 0,
+    "base_unit": "req"
+  },
+  {
+    "name": "NULS/INR",
+    "last": 108,
+    "buy": 0,
+    "sell": 0,
+    "volume": 0,
+    "base_unit": "nuls"
+  }
+]

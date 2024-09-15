@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HodlInfo Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>HODLINFO</h1>
+    <div class="header-stats">
+      <div class="stat">0.1% <span>5 Mins</span></div>
+      <div class="stat">0.96% <span>1 Hour</span></div>
+      <div class="stat" style="color: #8990a1;">Best Price to Trade <span style="font-size: 1.5rem;color: white; margin-top: 12px;">₹26,56,110</span></div>
+      <div class="stat">2.73% <span>1 Day</span></div>
+      <div class="stat">7.51% <span>7 Days</span></div>
+    </div>
+  </header>
+
+  <div class="desc">Average BTC/INR net price including commission</div>
+
+  <main>
+    <table class="ticker-table">
+      <thead >
+        <tr>
+          <th>#</th>
+          <th>Platform</th>
+          <th>Last Traded Price</th>
+          <th>Buy / Sell Price</th>
+          <th>Difference</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tbody id="ticker-data">
+        <!-- Tickers will be dynamically inserted here -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 HodlInfo Clone</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

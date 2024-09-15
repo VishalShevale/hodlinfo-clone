@@ -1,0 +1,15 @@
+{
+  "name": "hodlinfo-clone",
+  "version": "1.0.0",
+  "description": "A HodlInfo clone with Node.js and JSON file storage",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "fetch-data": "node src/fetchData.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

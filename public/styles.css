@@ -1,0 +1,174 @@
+/* Base Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #131722;
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: #1f2a38;
+    text-align:left;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #81ffd7;
+  }
+  
+  .header-stats {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    color:  #81ffd7;
+  }
+  
+  .header-stats .stat {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .header-stats .stat span {
+    display: block;
+    font-size: 0.8rem;
+    color: #8990a1;
+  }
+  .desc{
+    text-align: center;
+    padding-bottom: 8px;
+    margin-top: -12px;
+    /* margin: 10px; */
+    background-color: #1f2a38;
+    font-size: 0.8rem;
+    color: #8990a1;
+  }
+  
+  main {
+    padding: 20px;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #39444d;
+  }
+  
+  th {
+    background-color: #1f2a38;
+    color: white;
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #1a1e26;
+  }
+  
+  tbody tr:hover {
+    background-color: #2c3644;
+  }
+  
+  table tbody {
+    display: block;
+    max-height: 300px; /* Adjust height */
+    overflow-y: scroll;
+  }
+  
+  table thead, table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  footer {
+    background-color: #1f2a38;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Mobile (up to 480px) */
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .header-stats .stat {
+      margin: 5px;
+      padding-left: 0 ;
+    }
+  
+    table {
+      font-size: 0.9rem;
+      padding-left: 0 ;
+    }
+  
+    table th, table td {
+      padding: 10px;
+    }
+  
+    table tbody {
+      max-height: 200px;
+    }
+  }
+  
+  /* Tablet (481px - 768px) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    .header-stats .stat {
+      margin: 10px;
+    }
+  
+    table {
+      font-size: 1rem;
+    }
+  
+    table th, table td {
+      padding: 12px;
+    }
+  
+    table tbody {
+      max-height: 250px;
+    }
+  }
+  
+  /* Laptop and desktop (769px and up) */
+  @media (min-width: 769px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    .header-stats .stat {
+      margin: 15px;
+    }
+  
+    table {
+      font-size: 1.1rem;
+    }
+  
+    table th, table td {
+      padding: 15px;
+    }
+  
+    table tbody {
+      max-height: 300px;
+    }
+  }
+  
+  
